@@ -69,7 +69,7 @@ if(isset($data['action']) && !empty($data['action'])) {
                 echo json_encode($users);
                 break;
             case 'getAvailableTechs':
-                if (isset($user_id) && !$userService->isAPIUser($userId)) {
+                if (isset($userId) && !$userService->isAPIUser($userId)) {
                     header('HTTP/1.1 403 Forbidden');
                     echo json_encode(['message' => 'Unberechtigter Zugriff']);
                     exit;
@@ -148,10 +148,15 @@ if(isset($data['action']) && !empty($data['action'])) {
                 echo json_encode($result);
                 break;
             case 'getAttackNews':
-                $playerId = $data['player_id'];
+                $playerId = $data['player_id'] ?? null;
                 if (isset($userId) && !$userService->isAPIUser($userId) && isset($playerId)) {
                     header('HTTP/1.1 403 Forbidden');
                     echo json_encode(['message' => 'Unberechtigter Zugriff']);
+                    exit;
+                }
+                if ($playerId === null) {
+                    header('HTTP/1.1 400 Bad Request');
+                    echo json_encode(['message' => 'Fehlender Parameter: player_id']);
                     exit;
                 }
                 $sortType = $data['sortType'] ?? 'score';

@@ -17,13 +17,13 @@ $skforum_lang['message']='Message';
 $skforum_lang['threaderstellen']='Thread erstellen';
 
 $skforum_lang['msg_1_1']='Regeln für das SK-Forum';
-$skforum_lang['msg_1_2']='Sektorbündnis Anfragen kommen in den Thread 'Sekbund Sammel-Thread'! Alle anderen werden gelöscht';
+$skforum_lang['msg_1_2']="Sektorbündnis Anfragen kommen in den Thread 'Sekbund Sammel-Thread'! Alle anderen werden gelöscht";
 $skforum_lang['msg_1_3']='Für Vogelfrei wird auch niemand erklärt, da er sich hier nicht dagegen wehren kann und es schon öfter vorgekommen ist, das SKs einen für vogelfrei erklärt haben, nur damit sie Platz im sek für evtl. Kollegen haben.';
-$skforum_lang['msg_1_4']='Hallo ich bin SK' - Threads werden erbarmungslos gelöscht.';
+$skforum_lang['msg_1_4']="'Hallo ich bin SK' - Threads werden erbarmungslos gelöscht.";
 $skforum_lang['msg_1_5']='Werbung jeglicher Art wird auch nicht geduldet!';
 $skforum_lang['msg_2']='Keine Nachricht eingetragen.<br>';
-$skforum_lang['msg_3']='Leider ist ein Fehler aufgetreten['Kein Thema angegeben'].<br>';
-$skforum_lang['msg_4']='Leider ist ein Fehler aufgetreten['Kein gemeldeter User'].<br>';
+$skforum_lang['msg_3']="Leider ist ein Fehler aufgetreten['Kein Thema angegeben'].<br>";
+$skforum_lang['msg_4']="Leider ist ein Fehler aufgetreten['Kein gemeldeter User'].<br>";
 $skforum_lang['msg_5']='Dieser Thread existiert leider nicht.<br>';
 $skforum_lang['msg_6']='Du hast keine Berechtigung diesen Thread zu schlie&szlig;en.<br>';
 $skforum_lang['msg_7']='Thread geschlossen.';
