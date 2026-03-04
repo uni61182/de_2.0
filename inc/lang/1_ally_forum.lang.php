@@ -15,8 +15,8 @@ $allyforum_lang['message']='Message';
 $allyforum_lang['threaderstellen']='Thread erstellen';
 
 $allyforum_lang['msg_2']='Keine Nachricht eingetragen.<br>';
-$allyforum_lang['msg_3']='Leider ist ein Fehler aufgetreten['Kein Thema angegeben'].<br>';
-$allyforum_lang['msg_4']='Leider ist ein Fehler aufgetreten['Kein gemeldeter User'].<br>';
+$allyforum_lang['msg_3']="Leider ist ein Fehler aufgetreten['Kein Thema angegeben'].<br>";
+$allyforum_lang['msg_4']="Leider ist ein Fehler aufgetreten['Kein gemeldeter User'].<br>";
 $allyforum_lang['msg_5']='Dieser Thread existiert leider nicht.<br>';
 $allyforum_lang['msg_6']='Du hast keine Berechtigung diesen Thread zu schlie&szlig;en.<br>';
 $allyforum_lang['msg_7']='Thread geschlossen.';

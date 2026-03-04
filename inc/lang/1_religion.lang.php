@@ -40,5 +40,4 @@ $religion_lang['vorteiledesc']['8']='60% geringere Preise im Schwarzmarkt';
 $religion_lang['vorteiledesc']['9']='61% geringere Preise im Schwarzmarkt';
 $religion_lang['vorteiledesc']['10']='62% geringere Preise im Schwarzmarkt';
 
-$religion_lang[']=';
 ?>

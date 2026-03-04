@@ -18,7 +18,8 @@ $ranglisten_lang['questpunkte'] = 'Questpunkte';
 $ranglisten_lang['stand'] = 'Stand';
 $ranglisten_lang['download'] = 'Hier klicken um die kompletten Rohdaten <br>(gepackt im gzip Format) herunterzuladen';
 $ranglisten_lang['faq'] = 'FAQ zu den Daten';
-$ranglisten_lang['faq_text'] = '<br><br><br><br>
+$ranglisten_lang['faq_text'] = <<<'HTML'
+<br><br><br><br>
 <table border='0' cellpadding='0' cellspacing='0'>
 
 <tr height='37' align='center'>
@@ -117,5 +118,6 @@ $ranglisten_lang['faq_text'] = '<br><br><br><br>
 <td class='ru'>&nbsp;</td>
 <td class='rur' width='13'>&nbsp;</td>
 </tr>
-</table>';
+</table>
+HTML;
 ?>

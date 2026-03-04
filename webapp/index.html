@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DE2 Mobile/Web App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<main class="container">
+  <h1>Die Ewigen 2.0 – App Client</h1>
+
+  <section class="card" id="loginCard">
+    <h2>Login</h2>
+    <form id="loginForm">
+      <label>Username <input type="text" id="username" required /></label>
+      <label>Passwort <input type="password" id="password" required /></label>
+      <button type="submit">Einloggen</button>
+    </form>
+    <p id="loginError" class="error"></p>
+  </section>
+
+  <section class="card hidden" id="dashboard">
+    <div class="row">
+      <h2>Übersicht</h2>
+      <div>
+        <button id="refreshBtn">Aktualisieren</button>
+        <button id="logoutBtn" class="secondary">Logout</button>
+      </div>
+    </div>
+    <pre id="overview"></pre>
+
+    <h3>Ressourcen</h3>
+    <pre id="resources"></pre>
+
+    <h3>Flotten</h3>
+    <pre id="fleets"></pre>
+
+    <h3>Flotte bewegen</h3>
+    <form id="moveFleetForm" class="grid3">
+      <label>Slot (0-3)<input type="number" min="0" max="3" id="fleetSlot" required /></label>
+      <label>Ziel-Sektor<input type="number" min="1" id="targetSector" required /></label>
+      <label>Ziel-System<input type="number" min="1" id="targetSystem" required /></label>
+      <button type="submit">Senden</button>
+    </form>
+    <p id="moveResult"></p>
+  </section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
